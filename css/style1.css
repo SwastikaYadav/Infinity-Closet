@@ -12,6 +12,11 @@ body {
 .navbar-toggler {
   color: #ffffff;
 }
+.navbar-toggler:focus, .navbar-toggler:active{
+  box-shadow: none;
+  outline: none;
+  color: #ffffff;
+}
 nav {
   background-color: #404040;
   border-bottom: 2px solid #ffffff;
@@ -55,18 +60,18 @@ nav {
 }
 
 footer {
+  text-align: center;
   background-color: #404040;
   color: #ffffff;
   font-style: arial;
 }
-.flex-center {
-  margin-left: 35%;
-}
+
 .footer-copyright {
   background-color: #737373;
 }
 
 a{
+  margin: 2%;
     color: #ffffff;
 }
 a:hover {
