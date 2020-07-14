@@ -14,41 +14,34 @@
     <title>Infinity Closet | Login</title>
   </head>
   <body>
-      <nav>
-        <div class="logo">
-          <p>Logo</p>
-        </div>
-
-        <div class="search_bar">
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="search-bar" ><i class="fa fa-search fa-2x" style="color: #ffffff;"></i></button>
-          </form>
-        </div>
-
-        <div class="nav-items">
-          <ul>
-            <li>  
-              <a href="../html/login.html">Login/Signup</a>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand logo" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars fa-2x navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <div class="collapse navbar-collapse items" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0 search_bar">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="my-2 my-sm-0 search-bar" type="submit"><i class="fa fa-search fa-2x"></i></button>
+              </form>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login/signup</span></a>
             </li>
-            <li>
-              <a href="">Store</a>
-            </li> 
-            <li>
-              <a href="../html2/help.html">Help</a>
-            </li>
-            <li>  
-              <a href="../html2/aboutus.html">About Us</a>
-            </li>
-            <li id="cart">
-              <a href="#"
-                ><i class="fa fa-shopping-cart" aria-hidden="true"></i
-                ><span>5</span></a>
-            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About us<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="help.html">Help<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item" id="cart">
+                <a href="#"
+                  ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+                  ><span>5</span></a>
+              </li>
           </ul>
         </div>
       </nav>
-    
       <nav class="nav-categories">
           <ul>
             <li>
@@ -160,7 +153,7 @@
       </div>
     </div>
         <div class="footer-copyright text-center py-3">© 2020 Copyright:
-          <a href="#"> Infinity Closet</a>
+          <a class="copyright" href="#"> Infinity Closet</a>
          </div>
       </footer>
  
