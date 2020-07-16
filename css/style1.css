@@ -20,7 +20,7 @@ nav {
   border-bottom: 2px solid #ffffff;
 }
 .form-inline{
-  margin-left: -25%;
+  margin-left: -53%;
 }
 .logo,
 .nav-items {
@@ -101,10 +101,9 @@ nav {
 .nav-categories ul li {
   list-style-type: none;
   display: inline;
-  margin: 1vw 2vw;
+  margin: 1vw 1vw;
 }
 .nav-categories {
-  /* margin: 0; */
   width: 100%;
 }
 .nav-categories ul {
@@ -115,7 +114,7 @@ nav {
 .nav-categories a {
   
   text-decoration: none;
-  padding: 2vw;
+  padding: 1vw;
   color: white;
 }
 
