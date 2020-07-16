@@ -42,6 +42,10 @@
     width:40%;   
     height:40%; 
 }
+.img-fluid:hover{
+    
+    box-shadow: 4px 4px 4px 4px rgba(73, 57, 57, 0.6);
+}
 .help {
     margin: 0;
     background-color: #bfbfbf;
