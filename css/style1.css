@@ -1,3 +1,7 @@
+body{
+  font-family: serif;
+  background-color: #bfbfbf;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,18 +13,15 @@ a {
   color: #ffffff;
 }
 
-.container {
-  height: 100vh;
-  background: #bfbfbf;
-}
-
 nav {
   background: #2c3335;
   display: flex;
-  padding: 1rem 5rem;
+  padding: 0.2rem 5rem;
   border-bottom: 2px solid #ffffff;
 }
-
+.form-inline{
+  margin-left: -25%;
+}
 .logo,
 .nav-items {
   flex: 1;
@@ -46,7 +47,7 @@ nav {
   text-align: right;
   max-width: 150px;
   font-size: 20px;
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 
@@ -57,6 +58,7 @@ nav {
 #cart {
   font-size: 32px;
   margin: 0;
+  margin-top: 5px;
 }
 
 #cart a {
@@ -95,6 +97,55 @@ nav {
   font-size: 15px;
   top: -5px;
   right: -10px;
+}
+.nav-categories ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 1vw 2vw;
+}
+.nav-categories {
+  /* margin: 0; */
+  width: 100%;
+}
+.nav-categories ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-categories a {
+  
+  text-decoration: none;
+  padding: 2vw;
+  color: white;
+}
+
+.nav-categories a:hover{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  background-color: white;
+  color: #737373; 
+}
+
+.img-fluid {
+  /* padding-left: 30%; */
+
+  width:40%;   
+  height:40%; 
+}
+.img-fluid:hover{
+  
+  box-shadow: 4px 4px 4px 4px rgba(73, 57, 57, 0.6);
+}
+
+.col{
+  padding-top: 2rem;
+  text-align:center;
+  background-color: #bfbfbf;
+}
+.col h2 {
+  text-align:center;
+  color: black;
 }
 
 footer {
@@ -148,6 +199,7 @@ a:hover {
     flex-direction: column;
     margin-left: -45%;
     text-align: center;
+
   }
   p{
     text-align: center;
