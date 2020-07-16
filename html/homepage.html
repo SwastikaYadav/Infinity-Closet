@@ -6,52 +6,67 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="../css/style1.css" />
-    <link rel="stylesheet" href="../css/style2.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../css/styl.css" />
+
     <title>Infinity Closet | Login</title>
   </head>
   <body>
+      <nav>
+        <div class="logo">
+          <p>Logo</p>
+        </div>
 
-    <nav class="navbar navbar-expand-md">
-        <a href="#" class="navbar-brand">Logo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar5">
-        <span class="fa fa-bars fa-2x navbar-toggler-icon" aria-hidden="true"></span>
-        </button>
-        <div class="navbar-collapse collapse justify-content-stretch" id="navbar5">
-            <form class="ml-4 my-auto d-inline w-100">
+        <div class="nav-items">
+          <ul>
+            <li class="item">
+              <form class="form-inline">
                 <div class="input-group">
                     <input type="text" class="form-control border-right-0" placeholder="Search">
                     <div class="input-group-append">
                         <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
                     </div>
                 </div>
-            </form>
+              </form>
+
+            </li>
+            <li class="item">
+              <a href="login.html">Login</a>
+            </li>
+            <li class="item">
+              <a href="signup.html">Signup</a>
+            </li>
+            <li class="item">
+              <a href="">Store</a>
+            </li>
+            <li class="item" id="cart">
+              <a href="#"
+                ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+                ><span>5</span></a
+              >
+            </li>
+          </ul>
         </div>
-            <div class="d-flex flex-row-reverse bd-highlight">
-                <div class="p-2 bd-highlight"><a href="#"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span class="badge badge-pill badge-danger">5</span></a></div>
-                <div class="p-2 bd-highlight"><a href="aboutus.html">Store</div>
-                <div class="p-2 bd-highlight"><a href="help.html">Help</div>
-                <div class="p-2 bd-highlight"><a href="login.html">Login/Signup</a></div>
-                </div>
-    </nav>
+      </nav>
     <nav class="nav-categories">
         <ul>
-        <li>
+        <li class="cat">
             <a href="#"><b>Categories</b></a>
         </li>
-        <li>
+        <li class="cat">
             <a href="#">Men</a>
         </li>
-        <li>
+        <li class="cat">
             <a href="#">Women</a>
         </li>
-        <li>
+        <li class="cat">
             <a href="#">Kids</a>
         </li>
-        <li>
+        <li class="cat">
             <a href="#">Discover</a>
         </li>
         </ul>
