@@ -113,7 +113,6 @@ nav {
 
 .nav-categories a {
   margin-top: 2%;
-  
   text-decoration: none;
   padding: 1vw;
   color: white;
@@ -123,9 +122,27 @@ nav {
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-decoration: none;
-  background-color: white;
   color: #737373; 
 }
+/*========Order page==========*/
+.orders{
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+.nav-orders a{
+  color: blue;
+}
+.nav-orders a:hover{
+  color:orange;
+}
+.nav-orders .active a{
+  color: #2c3335;
+}
+.orders-placed{
+  font-family: serif;
+  margin-top: 3vh;
+}
+/*=============================*/
 
 .img-fluid {
   /* padding-left: 30%; */
